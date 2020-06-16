@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>PARQUE DE DIVERSIONES</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, inicial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://file.myfontastic.com/t5tNwfwUapz4yDzK3B6sfe/icons.css" rel="stylesheet">
+   </head>
+   <body>
+  	 <header class="header">
+       <div class="contenedor">
+         <h1 class="logo">WATERLAND</h1>
+         <span class="icon-menu" id="btn-menu">
+         <nav class="nav" id="nav">
+          <ul class="menu">
+               <li class="menu__item"><a class="menu__link select" class="icon-menu" id="btn-menu" href="/">INICIO</a></li>
+               <li class="menu__item"> <a class="menu__link" href="atracciones.html">ATRACCIONES</a></li>
+               <li class="menu__item"><a class="menu__link" href="precios.html">PRECIOS</a></li>
+               <li class="menu__item"><a class="menu__link" href="horarios.html">HORARIOS</a></li>
+               <li class="menu__item"><a class="menu__link" href="alimentacion.html">ALIMENTACION</a></li>
+               
+          </ul>
+        </nav>
+        </span>  
+      </div>
+    </header>
+    <div class="banner">
+      <img src="img/banner.jpg" alt="" class="banner__img">
+      <div class="contenedor">
+        <h2 class="banner__titulo">VIVE LA VERDADERA DIVERSION EN GRANDE</h2>
+        <h2 class="banner__txt">ATREVETE A VIVIR NUEVAS AVENTURAS</h2>
+      </div>
+    </div>
+    <main class="main">
+      <div class="contenedor">
+        <section class="info">
+            <article class="info__columna">
+                <img src="img/img1.jpg" alt="" class="info__img">
+                <h2 class="info__titulo">GRAN ACUARIO</h2>
+                <p class="info__txt">Recrea tu vista con nuestros diversos ejemplares acuaticos.</p>
+            </article>
+            <article class="info__columna">
+                <img src="img/img2.jpg" alt="" class="info__img">
+                <h2 class="info__titulo">FABULOSA COMIDA</h2>
+                <p class="info__txt">Disfruta de comidas rapidas, dulceria y restaurante con alto estándar de calidad, sabor y excelente precio. </p>
+            </article>
+            <article class="info__columna">
+                <img src="img/img3.jpg" alt="" class="info__img">
+                <h2 class="info__titulo">NATACION</h2>
+                <p class="info__txt">Disfruta de nuestro parque acuatico, ven con amigos y familia, pasa un tiempo inolvidable.</p>
+            </article>
+        </section> 
+        <section class= "cursos"></section> 
+          <h2 class="section__titulo">INFORMACION</h2>
+          <div class= "cursos__columna">
+          <img src="img/img4.jpg" alt="" class="cursos__img" class="cursos__descripcion"> <h2 class="cursos__titulo">CONTACTANOS: 355 864 2174</h2> </div>
+          </div> 
+    </main>
+    <footer class="footer">
+      <div class="contenedor">
+        <div class="social">
+          <a href="#" class="icon-facebook"></a>
+          <a href="#" class="icon-twitter"></a>
+          <a href="#" class="icon-gplus"></a>
+          <a href="#" class="icon-vine"></a>
+        <footer class="footer">
+      <div class="contenedor">
+        <div class="social">
+          <a href="#" class="icon-facebook"></a>
+          <a href="#" class="icon-twitter"></a>
+          <a href="#" class="icon-gplus"></a>
+          <a href="#" class="icon-vine"></a>
+        </div>
+    <script> 
+        var btnMenu = document.getElementById("btn-menu");
+        var nav = document.getElementById("nav");
+        btnMenu.addEventListener('click', function(){
+        nav.classList.toggle('mostrar');})
+    </script>
+    
+  </body>
+</html>
